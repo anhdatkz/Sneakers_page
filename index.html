@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="header__nav">
+                <div class="title">
+                    <h2>SNEAKERS</h2>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="">Collections</a></li>
+                        <li><a href="">Men</a></li>
+                        <li><a href="">Women</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="person">
+                <div class="person__cart">
+                    <img src="./asset/images/icon-cart.svg" alt="">
+                </div>
+                <div class="cart">
+                    <div class="cart__header">Cart</div>
+                    <div class="cart__list">
+                        <ul>
+                            <li class="cart-item">
+                                <div class="cart-item__img">
+                                    <img src="./asset/images/image-product-1-thumbnail.jpg" alt="">
+                                </div>
+                                <div class="cart-item__info">
+                                    <div class="cart-item__name">Fall Limited Edition Sneakers</div>
+                                    <div class="cart-item__price">$125.00 x 3 <span>$375.00</span></div>
+                                </div>
+                                <div class="cart-item__delete">
+                                    <img src="./asset/images/icon-delete.svg" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart__checkout">Checkout</div>
+                </div>
+                <div class="person__account">
+                    <img src="./asset/images/image-avatar.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="section-item">
+                <div class="section-image__main">
+                    <img src="./asset/images/image-product-1.jpg" alt="">
+                </div>
+                <ul class="section-image__list">
+                    <li><img class = "image__item" src="./asset/images/image-product-1.jpg" alt=""></li>
+                    <li><img class = "image__item" src="./asset/images/image-product-2.jpg" alt=""></li>
+                    <li><img class = "image__item" src="./asset/images/image-product-3.jpg" alt=""></li>
+                    <li><img class = "image__item" src="./asset/images/image-product-4.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="section-item">
+                <div class="section-detail__type">
+                    SNEAKER COMPANY
+                </div>
+
+                <div class="section-detail__name">
+                    FALL LIMITED EDITION SNEAKERS
+                </div>
+
+                <div class="section-detail__description">
+                    <p>There low-profile sneakers are your perfect casual wear companion.
+                        Fearturing a durable rubber outer sale, they'll withstand everything
+                        the weather can offer.
+                    </p>
+                </div>
+
+                <div class="section-detail__price">
+                    <div class="price">$125</div>
+                    <div class="discount">50%</div>
+                </div>
+                <div class="section-detail__price-discount">
+                    $250
+                </div> 
+                <div class="section-detail__add-cart">
+                    <div class="quantity">
+                        <button class="btn des"><img src="./asset/images/icon-minus.svg" alt=""></button>
+                        <input type="text" class="quan" value="10">
+                        <button class="btn ins"><img src="./asset/images/icon-plus.svg" alt=""></button>
+                    </div>
+                    <button class="add-to-cart">
+                        <img src="./asset/images/icon-cart.svg" alt="">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal">
+        <div class="modal__img">
+            <div class="modal__img-current">
+                <div class="icon close">
+                    <img src="./asset/images/icon-close.svg" alt="">
+                </div>
+                <div class="icon prev">
+                    <img src="./asset/images/icon-previous.svg" alt="">
+                </div>
+                <div class="icon next">
+                    <img src="./asset/images/icon-next.svg" alt="">
+                </div>
+                <div class="modal__img-main">
+                    <img src="./asset/images/image-product-1.jpg" alt="">
+                </div>
+            </div>
+            <ul class="modal__img-list">
+                <li><img class= "modal__img-item" src="./asset/images/image-product-1.jpg" alt=""></li>
+                <li><img class= "modal__img-item" src="./asset/images/image-product-2.jpg" alt=""></li>
+                <li><img class= "modal__img-item" src="./asset/images/image-product-3.jpg" alt=""></li>
+                <li><img class= "modal__img-item" src="./asset/images/image-product-4.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./asset/js/index.js"></script>
+</body>
+</html>
